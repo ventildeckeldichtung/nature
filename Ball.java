@@ -11,7 +11,7 @@ public class Ball {
 	private PVector speed;
 	Random rand = new Random();
 	public Ball() {
-		
+		System.out.println("Test");
 		this.mass = rand.nextInt(50);
 		this.position = new PVector(rand.nextInt(800),rand.nextInt(800));
 		this.speed = new PVector(rand.nextInt(1),rand.nextInt(2));
